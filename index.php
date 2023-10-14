@@ -108,6 +108,31 @@
         </section>
         <!-- end slider section  -->
     </header>
+    <!-- finish the section of header  -->
+
+    <!-- start main -->
+    <main>
+
+        <!-- start the section of about -->
+        <section id="about_Arch">
+            <div class="container mx-auto py-28">
+                <small class="text-lg font-medium pb-8 text-[var(--iris-100)]">
+                  KNOW MORE
+                </small>
+                <h3 class="w-[387px] pb-7 text-[40px] font-medium text-[var(--Heading-color)]">About Architecture Design?</h3>
+                <p class="w-[581px] text-[var(--Body-text)]">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    <br>
+                    <br>
+                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. 
+                </p>
+
+            </div>
+        </section>
+        <!-- end of section about -->
+    
+    </main>
+
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

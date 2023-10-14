@@ -7,6 +7,9 @@
 :root{
     --primary-color:#737373;
     --secondary-color: #5D5FEF;
+    --Heading-color: #000;
+    --Body-text: #ACACAC;
+    --iris-100: #5D5FEF;
 }
 
 /* start style for sub_header */
@@ -43,3 +46,12 @@
     padding-left: 202px;
   }
   
+
+  /* start to css of about section  */
+  #about_Arch{
+    /* width: 100%; */
+    background: linear-gradient(90deg, #FFF 31.81%, rgba(255, 255, 255, 0.00) 100%), url(../img/aboutImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
