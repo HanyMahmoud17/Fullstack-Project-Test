@@ -54,6 +54,60 @@
             </div>
         </nav>
         <!-- end to create navbar  -->
+
+        <!-- start to create a slider section  -->
+        <section class="slider">
+            <div class="relative">
+                <div >
+                   <ul id="slider">
+                        <li class="sliderOne">
+                            <div class="absolute slider_content  top-1/2 transform -translate-y-1/2">
+                                <h1 class="sliderOne_header text-6xl font-medium text-white pb-6">Architecture Design</h1>
+                                <p class="sliderOne_content font-medium text-white text-2xl w-1/2 pb-10">We design beautiful buildings that integrate and compliment their surroundings</p>
+                                <button class="sliderOne_btn p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </li>
+                        <li class="sliderOne hidden">
+                            <div class="absolute slider_content  top-1/2 transform -translate-y-1/2">
+                                <h1 class="sliderOne_header text-6xl font-medium text-white pb-6">Architecture Design 2</h1>
+                                <p class="sliderOne_content font-medium text-white text-2xl w-1/2 pb-10">We design beautiful buildings that integrate and compliment their surroundings</p>
+                                <button class="sliderOne_btn p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </li>
+                        <li class="sliderOne hidden">
+                            <div class="absolute slider_content  top-1/2 transform -translate-y-1/2">
+                                <h1 class="sliderOne_header text-6xl font-medium text-white pb-6">Architecture Design 3</h1>
+                                <p class="sliderOne_content font-medium text-white text-2xl w-1/2 pb-10">We design beautiful buildings that integrate and compliment their surroundings</p>
+                                <button class="sliderOne_btn p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <svg class="absolute bottom-[42px] left-[202px]" id="mySvg" xmlns="http://www.w3.org/2000/svg" width="124" height="19" viewBox="0 0 124 19" fill="none">
+                            <circle cx="9.5" cy="9.5" r="9" stroke="#A5A6F6"/>
+                            <circle cx="9.5" cy="9.5" r="5" fill="#A5A6F6" stroke="#A5A6F6"/>
+                            <circle cx="44.5" cy="9.5" r="9.5" fill="white"/>
+                            <circle cx="79.5" cy="9.5" r="9.5" fill="white"/>
+                            <circle cx="114.5" cy="9.5" r="9.5" fill="white"/>
+                            </svg>
+                </div>
+                <div class="absolute px-28 flex w-full h-full top-0 left-0">
+                    <div class="my-auto flex w-full h-full justify-between ">
+                        <button onclick="prevSlide()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
+                            <path d="M23 45L0.999999 23L23 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button onclick="nextSlide()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
+                            <path d="M0.999998 0.999999L23 23L1 45" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end slider section  -->
     </header>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
