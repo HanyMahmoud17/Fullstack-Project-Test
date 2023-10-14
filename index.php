@@ -61,7 +61,7 @@
                 <div >
                    <ul id="slider">
                         <li class="sliderOne">
-                            <div class="absolute slider_content  top-1/2 transform -translate-y-1/2">
+                            <div class="absolute slider_content pl-[202px] top-1/2 transform -translate-y-1/2">
                                 <h1 class="sliderOne_header text-6xl font-medium text-white pb-6">Architecture Design</h1>
                                 <p class="sliderOne_content font-medium text-white text-2xl w-1/2 pb-10">We design beautiful buildings that integrate and compliment their surroundings</p>
                                 <button class="sliderOne_btn p-4 rounded-sm text-white">Get in Touch</button>
@@ -90,7 +90,7 @@
                             <circle cx="114.5" cy="9.5" r="9.5" fill="white"/>
                             </svg>
                 </div>
-                <div class="absolute px-28 flex w-full h-full top-0 left-0">
+                <div class="absolute px-12 flex w-full h-full top-0 left-0">
                     <div class="my-auto flex w-full h-full justify-between ">
                         <button onclick="prevSlide()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
@@ -183,7 +183,130 @@
                 </div>
             </div>
         </section>
-        <!-- start section Factors -->
+        <!-- End section Factors -->
+
+        <!-- start section different type -->
+        <section id="diff_types" class="bg-[#F8F8F8]">
+            <div class="container mx-auto py-28 ">
+                <div class="pb-[71px] px-[187px]">
+                    
+                    <h3 class="text-[40px] text-center font-medium pb-3 text-[#5A5A5A] pb-[54px]">
+                        Different Types
+                    </h3>
+                    <ul class="flex justify-between">
+                        <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 1</a></li>
+                        <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 2</a></li>
+                        <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 3</a></li>
+                        <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 4</a></li>
+                        <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 5</a></li>
+                    </ul>
+                </div>
+                
+
+                <!-- Architecture type 1 -->
+                <div class="px-[121px] bg-white" id="Architecture type 1">
+                    <div class="flex gap-[51px] py-[82px] pl-[77px]">
+                        
+                        <img  src="./assets/img/arc1.png" alt="">
+                       <div>
+                            <div>
+                                <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
+                                <p class="text-[var(--Body-text)]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            </div>
+                            <div class="pt-9">
+                                <h4 class="text-[#727272] text-xl pb-5">Advantages :</h4>
+                                <ul class="pb-8">
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                </ul>
+                                <button class="bg-[var(--iris-100)] p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Architecture type 2 -->
+                <div class="px-[121px] mt-[10px] bg-white" id="Architecture type 2">
+                    <div class="flex gap-[51px] pt-[70px] pb-[94px] pl-[77px]">
+                       <div>
+                            <div>
+                                <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
+                                <p class="text-[var(--Body-text)]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            </div>
+                            <div class="pt-9">
+                                <h4 class="text-[#727272] text-xl pb-5">Advantages :</h4>
+                                <ul class="pb-8">
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                </ul>
+                                <button class="bg-[var(--iris-100)] p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </div>
+                        <img  src="./assets/img/arc1.png" alt="">
+                    </div>
+                </div>
+                <!-- Architecture type 3 -->
+                <div class="px-[121px] bg-white mt-[10px]" id="Architecture type 3">
+                    <div class="flex gap-[51px] py-[82px] pl-[77px]">
+                        
+                        <img  src="./assets/img/arc1.png" alt="">
+                       <div>
+                            <div>
+                                <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
+                                <p class="text-[var(--Body-text)]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            </div>
+                            <div class="pt-9">
+                                <h4 class="text-[#727272] text-xl pb-5">Advantages :</h4>
+                                <ul class="pb-8">
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                </ul>
+                                <button class="bg-[var(--iris-100)] p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Architecture type 4 -->
+                <div class="px-[121px] mt-[10px] bg-white" id="Architecture type 4">
+                    <div class="flex gap-[51px] pt-[70px] pb-[94px] pl-[77px]">
+                       <div>
+                            <div>
+                                <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
+                                <p class="text-[var(--Body-text)]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            </div>
+                            <div class="pt-9">
+                                <h4 class="text-[#727272] text-xl pb-5">Advantages :</h4>
+                                <ul class="pb-8">
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                    <li class="flex"><img src="./assets/img/Vector.svg" alt=""><p class="pl-1 text-[#A0A0A0]">Saves energy</p></li>
+                                </ul>
+                                <button class="bg-[var(--iris-100)] p-4 rounded-sm text-white">Get in Touch</button>
+                            </div>
+                        </div>
+                        <img  src="./assets/img/arc1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end section different type -->
 
     </main>
 
