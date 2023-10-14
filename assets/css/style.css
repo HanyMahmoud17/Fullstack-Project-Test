@@ -10,6 +10,7 @@
     --Heading-color: #000;
     --Body-text: #ACACAC;
     --iris-100: #5D5FEF;
+    --main-blue: #4B6A79;
 }
 
 /* start style for sub_header */
@@ -54,4 +55,28 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  /* start css of factor */
+
+  .factor-item::after{
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 400px;
+    width: 1px;
+    height: 224px;
+    background: #EAEAEA;
+
+  }
+  .factor-item2::before{
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 870px;
+    width: 1px;
+    height: 224px;
+    background: #EAEAEA;
   }

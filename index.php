@@ -130,7 +130,61 @@
             </div>
         </section>
         <!-- end of section about -->
-    
+
+        <!-- start section Factors -->
+        <section id="factor">
+            <div class="container mx-auto py-28">
+                <h3 class="text-[40px] text-center font-medium pb-3 text-[var(--main-blue)]">
+                    Factors
+                </h3>
+                <p class="text-[#8E8E8E] text-center">
+                Important factors in construction
+                </p>
+
+                <div class="flex justify-between pt-24 relative">
+                    <div>
+                        <div class="relative pb-6">
+                            <img  src="./assets/img/Ellipse1.png" alt="">
+                            <img class="absolute top-5 left-5" src="./assets/img/home-repair1.png" alt="">
+                        </div>
+                        <h4 class="text-[var(--iris-100)] pb-4 text-xl">
+                               Low Maintanance
+                        </h4>
+                        <p class="text-[var(--Body-text)] w-[324px]">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                    </div>
+                    
+                    <div class="factor-item">
+                        <div class="relative pb-6">
+                            <img  src="./assets/img/Ellipse1.png" alt="">
+                            <img class="absolute top-5 left-5" src="./assets/img/home-repair1.png" alt="">
+                        </div>
+                        <h4 class="text-[var(--iris-100)] pb-4 text-xl">
+                               Low Maintanance
+                        </h4>
+                        <p class="text-[var(--Body-text)] w-[324px]">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                    </div>
+                    <div class="factor-item2">
+                        <div class="relative pb-6">
+                            <img  src="./assets/img/Ellipse1.png" alt="">
+                            <img class="absolute top-5 left-5" src="./assets/img/home-repair1.png" alt="">
+                        </div>
+                        <h4 class="text-[var(--iris-100)] pb-4 text-xl">
+                               Low Maintanance
+                        </h4>
+                        <p class="text-[var(--Body-text)] w-[324px]">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- start section Factors -->
+
     </main>
 
     <script src="./assets/js/main.js"></script>
