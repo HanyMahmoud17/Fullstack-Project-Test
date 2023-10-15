@@ -1,3 +1,10 @@
+<?php
+$con=mysqli_connect('localhost','root');
+mysqli_select_db($con, 'ecommerce');
+$sql="SELECT * FROM products";
+$featured=$con->query($sql);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -354,6 +361,51 @@
             </div>
         </section>
         <!-- end section Features -->
+
+        <!-- start product section  -->
+            <section id="products">
+            <div class="container mx-auto py-28 px-16">
+                <ul class="flex items-center justify-between">
+                    <li><button >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
+                            <path d="M23 45L0.999999 23L23 1" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><h3 class="text-[40px] text-center font-medium pb-[74px] text-[var(--Heading_color)]">
+                              Other Features
+                        </h3>
+                    </li>
+                    <li>
+                    <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
+                            <path d="M0.999998 0.999999L23 23L1 45" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="flex gap-[19px]">
+                    <?php
+                       while($product = mysqli_fetch_assoc($featured)):
+                        ?>
+                        <div>
+                        <img src="<?= $product['image'];?>" alt="">
+                        <div class="pt-6 bg-[#F9F9F9] pl-7 pb-8">
+                            <h4 class="pb-5 text-xl text-[var(--Heading-color)]"><?= $product['title'];?></h4>
+                            <p class="pb-5 text-[var(--Body-text)]"><?= $product['description'];?></p>
+                            <div class="flex items-center pb-10">
+                                <span class="mr-2 text-lg font-semibold text-[var(--Heading-color)]">$<?= $product['price'];?></span>
+                                <span class="text-sm font-semibold text-[var(--Body-text)] line-through">$49.99</span>
+                            </div>
+                            <button class="p-4 rounded-sm text-white bg-[var(--iris-100)]"> <a href="productDetails.php">learn more </a></button>
+                        </div>
+                    </div>
+                    <?php endwhile;?>
+                </div>
+            </div>
+            </section>
+        <!-- end product section  -->
         
     </main>
 
