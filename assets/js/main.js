@@ -33,3 +33,15 @@ function showSlide(){
         }
     }
 }
+
+// for collapse
+
+const toggleBtns = document.querySelectorAll('.toggleBtn');
+const contentElements = document.querySelectorAll('.content');
+
+toggleBtns.forEach((toggleBtn, index) => {
+  toggleBtn.addEventListener('click', () => {
+    contentElements[index].classList.toggle('hidden');
+    toggleBtn.textContent = contentElements[index].classList.contains('hidden') ? '+' : '-';
+  });
+});

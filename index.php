@@ -496,6 +496,61 @@ $featured=$con->query($sql);
         </section>
         <!-- end section booking -->
         
+        <!-- start useful information section -->
+        <section>
+            <div class="container mx-auto py-28 px-16">
+                <div>
+                    <p class="text-[var(--iris-100)] mb-1 font-medium text-lg">USEFULL INFORMATION</p>
+                    <h3 class="text-4xl mb-[78px] font-medium text-[var(--main-blue)]">
+                    Documents Download
+                    </h3>
+                </div>
+
+                <div class="mb-[61px] relative">
+                    <div class="flex gap-[550px] items-center cursor-pointer" id="collapsible">
+                        <p class="text-lg">Depliant</p>
+                        <div class="text-2xl font-bold toggleBtn">+</div>
+                    </div>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
+                        <p>download document</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <!-- SVG Path Data -->
+                        </svg>
+                    </button>
+                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                </div>
+
+                <div class="mb-[61px]  relative">
+                    <div class="flex gap-[550px] items-center cursor-pointer" id="collapsible">
+                        <p class="text-lg">Depliant</p>
+                        <div class="text-2xl font-bold toggleBtn">+</div>
+                    </div>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
+                        <p>download document</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <!-- SVG Path Data -->
+                        </svg>
+                    </button>
+                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                </div>
+                
+                <div class="mb-[61px]  relative">
+                    <div class="flex gap-[550px] items-center cursor-pointer" id="collapsible">
+                        <p class="text-lg">Depliant</p>
+                        <div class="text-2xl font-bold toggleBtn">+</div>
+                    </div>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
+                        <p>download document</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <!-- SVG Path Data -->
+                        </svg>
+                    </button>
+                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                </div>
+
+            </div>    
+        </section>
+        <!-- end useful information section -->
     </main>
 
     <script src="./assets/js/main.js"></script>
