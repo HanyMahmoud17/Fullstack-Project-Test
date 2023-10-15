@@ -14,7 +14,7 @@
     <header>
         <!-- start to create sub_header  -->
         <div class="sub_header">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-16">
                 <ul class="items flex py-2.5 justify-end">
                     <li class="item pr-3 text-white text-xs font-normal ">
                         Get in Touch
@@ -34,19 +34,19 @@
         
         <!-- start to create navbar  -->
         <nav class="navbar py-8">
-            <div class="container mx-auto flex justify-between items-center>
+            <div class="container mx-auto px-16 flex justify-between items-center>
                     <a href="">
                         <img src="./assets/img/image1.png" alt="">
                     </a>
                     <div>
                         <ul class="flex items-center">
-                            <li class="px-3"><a href="">About Architecture Design</a></li>
-                            <li class="px-3"><a href="">Factors</a></li>
-                            <li class="px-3"><a href="">Different Types</a></li>
-                            <li class="px-3"><a href="">Other Features</a></li>
-                            <li class="px-3"><a href="">Our Products</a></li>
-                            <li class="px-3"><a href="">Architecture design</a></li>
-                            <li class="px-3"><a href="">Documents</a></li>
+                            <li class="px-2.5"><a href="">About Architecture Design</a></li>
+                            <li class="px-2.5"><a href="">Factors</a></li>
+                            <li class="px-2.5"><a href="">Different Types</a></li>
+                            <li class="px-2.5"><a href="">Other Features</a></li>
+                            <li class="px-2.5"><a href="">Our Products</a></li>
+                            <li class="px-2.5"><a href="">Architecture design</a></li>
+                            <li class="px-2.5"><a href="">Documents</a></li>
                             <li class="pl-1.5"><button class="navbar_btn p-4 rounded-sm text-white">Get in Touch</button></li>
                         </ul>
                     </div>
@@ -90,8 +90,8 @@
                             <circle cx="114.5" cy="9.5" r="9.5" fill="white"/>
                             </svg>
                 </div>
-                <div class="absolute px-12 flex w-full h-full top-0 left-0">
-                    <div class="my-auto flex w-full h-full justify-between ">
+                <div class="absolute container mx-auto px-24 flex w-full h-full top-0 left-0">
+                    <div class="my-auto flex w-full h-full justify-between">
                         <button onclick="prevSlide()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="46" viewBox="0 0 24 46" fill="none">
                             <path d="M23 45L0.999999 23L23 1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -115,7 +115,7 @@
 
         <!-- start the section of about -->
         <section id="about_Arch">
-            <div class="container mx-auto py-28">
+            <div class="container mx-auto py-28 px-16">
                 <small class="text-lg font-medium pb-8 text-[var(--iris-100)]">
                   KNOW MORE
                 </small>
@@ -133,7 +133,7 @@
 
         <!-- start section Factors -->
         <section id="factor">
-            <div class="container mx-auto py-28">
+            <div class="container mx-auto py-28 px-16">
                 <h3 class="text-[40px] text-center font-medium pb-3 text-[var(--main-blue)]">
                     Factors
                 </h3>
@@ -187,13 +187,13 @@
 
         <!-- start section different type -->
         <section id="diff_types" class="bg-[#F8F8F8]">
-            <div class="container mx-auto py-28 ">
-                <div class="pb-[71px] px-[187px]">
+            <div class="container mx-auto py-28 px-16">
+                <div class="pb-[71px]">
                     
                     <h3 class="text-[40px] text-center font-medium pb-3 text-[#5A5A5A] pb-[54px]">
                         Different Types
                     </h3>
-                    <ul class="flex justify-between">
+                    <ul class="flex justify-between px-[65px]">
                         <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 1</a></li>
                         <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 2</a></li>
                         <li class="font-bold text-lg text-[var(--iris-100)]"><a href="">Architecture type 3</a></li>
@@ -204,8 +204,8 @@
                 
 
                 <!-- Architecture type 1 -->
-                <div class="px-[121px] bg-white" id="Architecture type 1">
-                    <div class="flex gap-[51px] py-[82px] pl-[77px]">
+                <div class="px-[70px] bg-white" id="Architecture type 1">
+                    <div class="flex gap-[51px] py-[82px]">
                         
                         <img  src="./assets/img/arc1.png" alt="">
                        <div>
@@ -230,8 +230,8 @@
                 </div>
                 
                 <!-- Architecture type 2 -->
-                <div class="px-[121px] mt-[10px] bg-white" id="Architecture type 2">
-                    <div class="flex gap-[51px] pt-[70px] pb-[94px] pl-[77px]">
+                <div class="px-[70px] mt-[10px] bg-white" id="Architecture type 2">
+                    <div class="flex gap-[51px] pt-[70px] pb-[94px] ">
                        <div>
                             <div>
                                 <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
@@ -254,8 +254,8 @@
                     </div>
                 </div>
                 <!-- Architecture type 3 -->
-                <div class="px-[121px] bg-white mt-[10px]" id="Architecture type 3">
-                    <div class="flex gap-[51px] py-[82px] pl-[77px]">
+                <div class="px-[70px] bg-white mt-[10px]" id="Architecture type 3">
+                    <div class="flex gap-[51px] py-[82px] ">
                         
                         <img  src="./assets/img/arc1.png" alt="">
                        <div>
@@ -280,8 +280,8 @@
                 </div>
                 
                 <!-- Architecture type 4 -->
-                <div class="px-[121px] mt-[10px] bg-white" id="Architecture type 4">
-                    <div class="flex gap-[51px] pt-[70px] pb-[94px] pl-[77px]">
+                <div class="px-[70px] mt-[10px] bg-white" id="Architecture type 4">
+                    <div class="flex gap-[51px] pt-[70px] pb-[94px]">
                        <div>
                             <div>
                                 <h4 class="text-3xl font-medium text-[#5D5FEF] pb-4">Architecture type 1</h4>
@@ -305,9 +305,56 @@
                 </div>
             </div>
         </section>
-
         <!-- end section different type -->
 
+        <!-- Start section Features -->
+        <section id="feature">
+            <div class="container mx-auto py-28 px-16">
+                <h3 class="text-[40px] text-center font-medium pb-[74px] text-[var(--Heading_color)]">
+                   Other Features
+                </h3>
+                <!-- <div> -->
+                    <div class="flex gap-7">
+                        <div>
+                            <img  src="./assets/img/feature2.png" alt="">
+                            <div class="bg-[#F9F9F9] pl-[50px] pr-[33px] pt-[43px] pb-[109px]">
+                                <h4 class="text-4xl font-medium pb-7">
+                                Optimised Installation
+                                </h4>
+                                <p class="pr-[63px] text-[var(--Body-text)] pb-7">We use optimised installation lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                <div>
+                                    <p class="feature_circle relative">Lay the elements from left to right and from top to bottom with the arrow pointing upwards</p>
+                                    <p class="feature_circle relative"> Fill the feet with expanded clay or other mineral substrate</p>
+                                    <p class="feature_circle relative">Lay some non-woven fabric over the entire surface</p>
+                                    <p class="feature_circle relative"> It is advisable to lay a layer of topsoil of at least 20 cm </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/feature1.png" alt="">
+                            <div class="bg-[#F9F9F9] pl-[50px] pr-[33px] pt-[43px] pb-[109px]">
+                                <h4 class="text-4xl font-medium pb-7">
+                                Optimised Installation
+                                </h4>
+                                <p class="pr-[63px] text-[var(--Body-text)] pb-7">We use optimised installation lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                <div>
+                                    <p class="feature_circle relative">Lay the elements from left to right and from top to bottom with the arrow pointing upwards</p>
+                                    <p class="feature_circle relative"> Fill the feet with expanded clay or other mineral substrate</p>
+                                    <p class="feature_circle relative">Lay some non-woven fabric over the entire surface</p>
+                                    <p class="feature_circle relative"> It is advisable to lay a layer of topsoil of at least 20 cm </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                <!-- </div> -->
+
+            </div>
+        </section>
+        <!-- end section Features -->
+        
     </main>
 
     <script src="./assets/js/main.js"></script>

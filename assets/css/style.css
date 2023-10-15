@@ -62,7 +62,7 @@
     position: absolute;
     display: flex;
     top: 80px;
-    left: 400px;
+    left: 350px;
     width: 1px;
     height: 224px;
     background: #EAEAEA;
@@ -73,8 +73,22 @@
     position: absolute;
     display: flex;
     top: 80px;
-    left: 870px;
+    left: 770px;
     width: 1px;
     height: 224px;
     background: #EAEAEA;
   }
+
+/* css of features */
+
+/* Define your custom CSS class */
+.feature_circle::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--iris-100);
+}
