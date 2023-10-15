@@ -406,6 +406,95 @@ $featured=$con->query($sql);
             </div>
             </section>
         <!-- end product section  -->
+
+        <!-- start section booking -->
+        <section id="book" class="bg-[#F4F4F4]">
+        <div class="container mx-auto py-28 px-16">
+            <div class="flex">
+                <div>
+                    <h2 class="text-[40px] font-medium pb-8">
+                        Interested in Architecture Design?
+                    </h2>
+                    <p class="text-[var(--Body-text)] pb-12 pr-[148px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    <img src="./assets/img/bookimg.png" alt="">
+                </div>
+
+                <div class="bg-[var(--iris-100)] w-full">
+                    <div class="pt-9 pl-11 pr-[26px]">
+                        <h3 class="text-white text-3xl font-medium mb-5">Book a Free Appointment</h3>
+                        <p class="text-white pb-4">Interested in this service? Book a free appointment by filling the fields below. Our staff will get back to yu  shortly!</p>
+                        <form action="">
+                            <div class="mb-5">
+                                <label class="block text-white text-sm font-bold mb-2" for="name">
+                                    Name*
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Insert name..."
+                                />
+                            </div>
+                            <div class="mb-5">
+                                <label class="block text-white text-sm font-bold mb-2" for="surname">
+                                   Surname*
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Insert surname..."
+                                />
+                            </div>
+                            <div class="mb-5">
+                                <label class="block text-white text-sm font-bold mb-2" for="name">
+                                Phone Number*
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Insert phone number..."
+                                />
+                            </div>
+                            <div class="mb-5">
+                                <label class="block text-white text-sm font-bold mb-2" for="name">
+                                Email Address*
+                                </label>
+                                <input
+                                    class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Insert email address..."
+                                />
+                            </div>
+                            <div class="mb-5">
+                                <label class="block text-white text-sm font-bold mb-2" for="message">
+                                    MessageMessage*
+                                </label>
+                                <textarea
+                                    class="resize-y border rounded w-full pl-3 pt-4 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="message"
+                                    rows="4"
+                                    placeholder="Insert message..."
+                                ></textarea>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-white text-[var(--iris-100)] font-bold px-4 py-4 rounded focus:outline-none focus:shadow-outline"
+                                    type="submit"
+                                >
+                                send appointment form
+                                </button>
+                                </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- end section booking -->
         
     </main>
 
