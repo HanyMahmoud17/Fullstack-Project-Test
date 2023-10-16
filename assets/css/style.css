@@ -10,6 +10,8 @@
     --Body-text: #ACACAC;
     --iris-100: #5D5FEF;
     --main-blue: #4B6A79;
+    --grey:#646464;
+    --iris-60: #A5A6F6;
 }
 
 /* start style for sub_header */
@@ -91,4 +93,9 @@
   height: 5px;
   border-radius: 50%;
   background-color: var(--iris-100);
+}
+
+/* contact section */
+#contact{
+  background: linear-gradient(90deg, rgba(245, 245, 245, 0.88) 10.56%, rgba(245, 245, 245, 0.90) 100%);
 }

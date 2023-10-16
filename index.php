@@ -511,13 +511,14 @@ $featured=$con->query($sql);
                         <p class="text-lg">Depliant</p>
                         <div class="text-2xl font-bold toggleBtn">+</div>
                     </div>
-                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
-                        <p>download document</p>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 gap-2 items-center content">
+                        <p class="text-white">download document</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <!-- SVG Path Data -->
+                            <path d="M15.2 9.6C14.9878 9.6 14.7843 9.68429 14.6343 9.83432C14.4843 9.98434 14.4 10.1878 14.4 10.4V13.6C14.4 13.8122 14.3157 14.0157 14.1657 14.1657C14.0157 14.3157 13.8122 14.4 13.6 14.4H2.4C2.18783 14.4 1.98434 14.3157 1.83431 14.1657C1.68429 14.0157 1.6 13.8122 1.6 13.6V10.4C1.6 10.1878 1.51571 9.98434 1.36569 9.83432C1.21566 9.68429 1.01217 9.6 0.8 9.6C0.587827 9.6 0.384344 9.68429 0.234315 9.83432C0.0842854 9.98434 0 10.1878 0 10.4V13.6C0 14.2365 0.252856 14.847 0.702944 15.2971C1.15303 15.7471 1.76348 16 2.4 16H13.6C14.2365 16 14.847 15.7471 15.2971 15.2971C15.7471 14.847 16 14.2365 16 13.6V10.4C16 10.1878 15.9157 9.98434 15.7657 9.83432C15.6157 9.68429 15.4122 9.6 15.2 9.6ZM7.432 10.968C7.50808 11.0408 7.5978 11.0979 7.696 11.136C7.79176 11.1783 7.8953 11.2002 8 11.2002C8.1047 11.2002 8.20824 11.1783 8.304 11.136C8.4022 11.0979 8.49192 11.0408 8.568 10.968L11.768 7.768C11.9186 7.61736 12.0033 7.41304 12.0033 7.2C12.0033 6.98696 11.9186 6.78264 11.768 6.632C11.6174 6.48136 11.413 6.39673 11.2 6.39673C10.987 6.39673 10.7826 6.48136 10.632 6.632L8.8 8.472V0.8C8.8 0.587827 8.71571 0.384344 8.56569 0.234315C8.41566 0.0842854 8.21217 0 8 0C7.78783 0 7.58434 0.0842854 7.43431 0.234315C7.28429 0.384344 7.2 0.587827 7.2 0.8V8.472L5.368 6.632C5.29341 6.55741 5.20486 6.49824 5.1074 6.45787C5.00994 6.4175 4.90549 6.39673 4.8 6.39673C4.69451 6.39673 4.59006 6.4175 4.4926 6.45787C4.39514 6.49824 4.30659 6.55741 4.232 6.632C4.15741 6.70659 4.09824 6.79514 4.05787 6.8926C4.0175 6.99006 3.99673 7.09451 3.99673 7.2C3.99673 7.30549 4.0175 7.40994 4.05787 7.5074C4.09824 7.60486 4.15741 7.69341 4.232 7.768L7.432 10.968Z" fill="white"/>
+                            </svg>
                         </svg>
                     </button>
-                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                    <div class="absolute bottom-[-31px] left-0 w-[631px]  h-1 bg-[#E1E1E1]"></div>
                 </div>
 
                 <div class="mb-[61px]  relative">
@@ -525,13 +526,14 @@ $featured=$con->query($sql);
                         <p class="text-lg">Depliant</p>
                         <div class="text-2xl font-bold toggleBtn">+</div>
                     </div>
-                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
-                        <p>download document</p>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex gap-2 items-center p-4 content">
+                        <p class="text-white">download document</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <!-- SVG Path Data -->
+                            <path d="M15.2 9.6C14.9878 9.6 14.7843 9.68429 14.6343 9.83432C14.4843 9.98434 14.4 10.1878 14.4 10.4V13.6C14.4 13.8122 14.3157 14.0157 14.1657 14.1657C14.0157 14.3157 13.8122 14.4 13.6 14.4H2.4C2.18783 14.4 1.98434 14.3157 1.83431 14.1657C1.68429 14.0157 1.6 13.8122 1.6 13.6V10.4C1.6 10.1878 1.51571 9.98434 1.36569 9.83432C1.21566 9.68429 1.01217 9.6 0.8 9.6C0.587827 9.6 0.384344 9.68429 0.234315 9.83432C0.0842854 9.98434 0 10.1878 0 10.4V13.6C0 14.2365 0.252856 14.847 0.702944 15.2971C1.15303 15.7471 1.76348 16 2.4 16H13.6C14.2365 16 14.847 15.7471 15.2971 15.2971C15.7471 14.847 16 14.2365 16 13.6V10.4C16 10.1878 15.9157 9.98434 15.7657 9.83432C15.6157 9.68429 15.4122 9.6 15.2 9.6ZM7.432 10.968C7.50808 11.0408 7.5978 11.0979 7.696 11.136C7.79176 11.1783 7.8953 11.2002 8 11.2002C8.1047 11.2002 8.20824 11.1783 8.304 11.136C8.4022 11.0979 8.49192 11.0408 8.568 10.968L11.768 7.768C11.9186 7.61736 12.0033 7.41304 12.0033 7.2C12.0033 6.98696 11.9186 6.78264 11.768 6.632C11.6174 6.48136 11.413 6.39673 11.2 6.39673C10.987 6.39673 10.7826 6.48136 10.632 6.632L8.8 8.472V0.8C8.8 0.587827 8.71571 0.384344 8.56569 0.234315C8.41566 0.0842854 8.21217 0 8 0C7.78783 0 7.58434 0.0842854 7.43431 0.234315C7.28429 0.384344 7.2 0.587827 7.2 0.8V8.472L5.368 6.632C5.29341 6.55741 5.20486 6.49824 5.1074 6.45787C5.00994 6.4175 4.90549 6.39673 4.8 6.39673C4.69451 6.39673 4.59006 6.4175 4.4926 6.45787C4.39514 6.49824 4.30659 6.55741 4.232 6.632C4.15741 6.70659 4.09824 6.79514 4.05787 6.8926C4.0175 6.99006 3.99673 7.09451 3.99673 7.2C3.99673 7.30549 4.0175 7.40994 4.05787 7.5074C4.09824 7.60486 4.15741 7.69341 4.232 7.768L7.432 10.968Z" fill="white"/>
+                            </svg>
                         </svg>
                     </button>
-                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                    <div class="absolute bottom-[-31px] left-0 w-[631px] h-1 bg-[#E1E1E1]"></div>
                 </div>
                 
                 <div class="mb-[61px]  relative">
@@ -539,18 +541,125 @@ $featured=$con->query($sql);
                         <p class="text-lg">Depliant</p>
                         <div class="text-2xl font-bold toggleBtn">+</div>
                     </div>
-                    <button class="hidden bg-[var(--iris-100)] mt-4 flex p-4 content">
-                        <p>download document</p>
+                    <button class="hidden bg-[var(--iris-100)] mt-4 flex gap-2 items-center  p-4 content">
+                        <p class="text-white">download document</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <!-- SVG Path Data -->
+                            <path d="M15.2 9.6C14.9878 9.6 14.7843 9.68429 14.6343 9.83432C14.4843 9.98434 14.4 10.1878 14.4 10.4V13.6C14.4 13.8122 14.3157 14.0157 14.1657 14.1657C14.0157 14.3157 13.8122 14.4 13.6 14.4H2.4C2.18783 14.4 1.98434 14.3157 1.83431 14.1657C1.68429 14.0157 1.6 13.8122 1.6 13.6V10.4C1.6 10.1878 1.51571 9.98434 1.36569 9.83432C1.21566 9.68429 1.01217 9.6 0.8 9.6C0.587827 9.6 0.384344 9.68429 0.234315 9.83432C0.0842854 9.98434 0 10.1878 0 10.4V13.6C0 14.2365 0.252856 14.847 0.702944 15.2971C1.15303 15.7471 1.76348 16 2.4 16H13.6C14.2365 16 14.847 15.7471 15.2971 15.2971C15.7471 14.847 16 14.2365 16 13.6V10.4C16 10.1878 15.9157 9.98434 15.7657 9.83432C15.6157 9.68429 15.4122 9.6 15.2 9.6ZM7.432 10.968C7.50808 11.0408 7.5978 11.0979 7.696 11.136C7.79176 11.1783 7.8953 11.2002 8 11.2002C8.1047 11.2002 8.20824 11.1783 8.304 11.136C8.4022 11.0979 8.49192 11.0408 8.568 10.968L11.768 7.768C11.9186 7.61736 12.0033 7.41304 12.0033 7.2C12.0033 6.98696 11.9186 6.78264 11.768 6.632C11.6174 6.48136 11.413 6.39673 11.2 6.39673C10.987 6.39673 10.7826 6.48136 10.632 6.632L8.8 8.472V0.8C8.8 0.587827 8.71571 0.384344 8.56569 0.234315C8.41566 0.0842854 8.21217 0 8 0C7.78783 0 7.58434 0.0842854 7.43431 0.234315C7.28429 0.384344 7.2 0.587827 7.2 0.8V8.472L5.368 6.632C5.29341 6.55741 5.20486 6.49824 5.1074 6.45787C5.00994 6.4175 4.90549 6.39673 4.8 6.39673C4.69451 6.39673 4.59006 6.4175 4.4926 6.45787C4.39514 6.49824 4.30659 6.55741 4.232 6.632C4.15741 6.70659 4.09824 6.79514 4.05787 6.8926C4.0175 6.99006 3.99673 7.09451 3.99673 7.2C3.99673 7.30549 4.0175 7.40994 4.05787 7.5074C4.09824 7.60486 4.15741 7.69341 4.232 7.768L7.432 10.968Z" fill="white"/>
+                            </svg>
                         </svg>
                     </button>
-                    <div class="absolute bottom-[-31px] left-0 w-[70%] h-1 bg-[#E1E1E1]"></div>
+                    <div class="absolute bottom-[-31px] left-0 w-[631px] h-1 bg-[#E1E1E1]"></div>
                 </div>
 
             </div>    
         </section>
         <!-- end useful information section -->
+
+        <!-- start contact section -->
+        <section id="contact">
+            <div class="container mx-auto py-28 px-16">
+                <div class="text-center">
+                        <h2 class="text-4xl text-[var(--grey)] font-medium">Interested in our Architecture design?<br> <p class="text-center">Contact us</p></h2>
+                        <p class="text-[#656565] mt-5 px-[290px] mb-10">We offer Climablock service for different solutions. So if you are interested in this product don’t hesitat to contact us from the details below</p>
+                        <ul class="flex justify-center gap-4">
+                            <li class="bg-[var(--iris-60)]">
+                                <div class="flex p-5 gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24" fill="none">
+                                    <path d="M10 0C7.34875 0.0028586 4.80694 1.01523 2.93222 2.81501C1.0575 4.61478 0.00297764 7.05498 0 9.60025C0 13.5064 2.95375 16.75 6.0825 20.1833C7.0725 21.2706 8.0975 22.395 9.01 23.5326C9.12677 23.678 9.27675 23.7958 9.44838 23.8768C9.62002 23.9579 9.80873 24 10 24C10.1913 24 10.38 23.9579 10.5516 23.8768C10.7233 23.7958 10.8732 23.678 10.99 23.5326C11.9025 22.395 12.9275 21.2706 13.9175 20.1833C17.0462 16.75 20 13.5064 20 9.60025C19.997 7.05498 18.9425 4.61478 17.0678 2.81501C15.1931 1.01523 12.6513 0.0028586 10 0ZM10 13.2003C9.25832 13.2003 8.5333 12.9892 7.91661 12.5936C7.29993 12.198 6.81928 11.6358 6.53545 10.9779C6.25162 10.3201 6.17736 9.59626 6.32205 8.89791C6.46675 8.19956 6.8239 7.55808 7.34835 7.0546C7.8728 6.55112 8.54098 6.20824 9.26841 6.06933C9.99584 5.93042 10.7498 6.00171 11.4351 6.2742C12.1203 6.54668 12.706 7.00811 13.118 7.60014C13.5301 8.19218 13.75 8.88822 13.75 9.60025C13.75 10.5551 13.3549 11.4708 12.6517 12.1459C11.9484 12.821 10.9946 13.2003 10 13.2003Z" fill="white"/>
+                                    </svg>
+                                    <p class="font-medium text-white">40 Triq Tigne', Tas-Sliema SLM 3174, Malta</p>
+                                </div>
+                            </li>
+                            <li class="bg-[var(--iris-60)]">
+                                <div class="flex p-5 gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <path d="M16.6439 13.8465L14.8039 14.8806C14.5831 15.0046 14.3277 15.0532 14.0766 15.0188C13.8256 14.9844 13.5927 14.8689 13.4136 14.6901L7.27233 8.56342C7.09322 8.38464 6.97761 8.15234 6.94314 7.90192C6.90867 7.6515 6.95721 7.39671 7.08137 7.17638L8.11797 5.34073C8.30456 5.01035 8.37762 4.62812 8.32597 4.25243C8.27433 3.87673 8.10083 3.52823 7.83198 3.26016L5.07418 0.508893C4.91254 0.347559 4.72062 0.219578 4.50939 0.13226C4.29816 0.0449425 4.07175 0 3.84311 0C3.61446 0 3.38806 0.0449425 3.17682 0.13226C2.96559 0.219578 2.77368 0.347559 2.61204 0.508893L1.35985 1.75724C0.627609 2.48773 0.161186 3.44147 0.0347453 4.46683C-0.0916952 5.49218 0.129106 6.53027 0.662039 7.41604L1.29033 8.46071C4.49889 13.7955 9.02767 18.2183 14.4423 21.3049L14.5663 21.3761C16.416 22.4304 18.7013 22.1231 20.1823 20.6465L21.4899 19.342C21.6516 19.1808 21.7799 18.9893 21.8674 18.7786C21.955 18.5678 22 18.342 22 18.1139C22 17.8858 21.955 17.6599 21.8674 17.4492C21.7799 17.2384 21.6516 17.047 21.4899 16.8857L18.7303 14.1327C18.4617 13.8641 18.1122 13.6907 17.7354 13.6391C17.3587 13.5874 16.9753 13.6602 16.6439 13.8465Z" fill="white"/>
+                                    </svg>
+                                    <p class="font-medium text-white">(+356) 2112 3456</p>
+                                </div>
+                            </li>
+                            <li class="bg-[var(--iris-60)]">
+                                <div class="flex p-5 gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                                    <path d="M11.2015 25.2334L15.6071 18.6249C16.0006 18.0349 15.8407 17.875 15.2508 18.2685L8.64223 22.6741C8.24872 22.9366 7.60949 22.9363 7.21628 22.6741L0.607735 18.2685C0.017176 17.875 0.0785327 17.3564 0.744608 17.111L25.3056 8.06205C25.7493 7.89862 25.977 8.12635 25.8136 8.57001L16.7646 33.131C16.5192 33.7971 16.0006 33.8585 15.6071 33.2679L11.2015 26.6594C10.9393 26.2661 10.939 25.6269 11.2015 25.2334Z" fill="white"/>
+                                    </svg>
+                                    <p class="font-medium text-white">info@gmail.com</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <h3 class=" mt-[124px] mb-[29px] font-medium text-3xl text-[var(--grey)]">Or fill in the form</h3>
+                        <form action="" class="px-[260px] text-start">
+                            <div class="flex justify-center gap-4 mb-4">
+                                <div class="w-full">
+                                    <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="name">
+                                        Name
+                                    </label>
+                                    <input
+                                        class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Insert name..."
+                                    />
+                                </div>
+                                <div class="w-full">
+                                    <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="surname">
+                                    Surname*
+                                    </label>
+                                    <input
+                                        class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Insert surname..."
+                                    />
+                                </div>
+                            </div>
+                            <div class="w-full mb-4">
+                                    <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="name">
+                                    Phone Number
+                                    </label>
+                                    <input
+                                        class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Insert phone number..."
+                                    />
+                            </div>
+                            <div class="w-full mb-4">
+                                    <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="name">
+                                    Email Address
+                                    </label>
+                                    <input
+                                        class="shadow appearance-none border rounded w-full py-5 px-5 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Insert email address..."
+                                    />
+                            </div>
+                            <div class="mb-9">
+                                <label class="block text-[#8A8A8A] text-sm  mb-2" for="message">
+                                    Message
+                                </label>
+                                <textarea
+                                    class="resize-y border rounded w-full pl-3 pt-4 text-[#BEBEBE] leading-tight focus:outline-none focus:shadow-outline"
+                                    id="message"
+                                    rows="4"
+                                    placeholder="Insert message..."
+                                ></textarea>
+                            </div>
+                            <div class="flex justify-center">
+                                <button
+                                    class="text-white bg-[var(--iris-100)] font-bold px-4 py-4 rounded focus:outline-none focus:shadow-outline"
+                                    type="submit"
+                                >
+                                send appointment form
+                                </button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- end contact section -->
     </main>
 
     <script src="./assets/js/main.js"></script>
